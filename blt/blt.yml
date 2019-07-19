@@ -16,6 +16,9 @@ project:
 git:
   default_branch: master
   remotes: {  }
+  hooks:
+     commit-msg: false
+     pattern: false
 deploy:
   # When manually deploying a tag, also tag the source repository.
   tag_source: true
